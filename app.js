@@ -13,9 +13,5 @@ app.listen(3000,()=>{
 });
 
 app.get("/",(req,res)=>{
-    res.send("This is home page");
-});
-
-app.get("/home",(req,res)=>{
     res.render("home.ejs")
 });
