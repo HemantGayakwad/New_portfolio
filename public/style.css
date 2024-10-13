@@ -1,0 +1,470 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+body{
+    color: black;
+}
+
+/* navbar top */
+.top{
+    height: 100px;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top:0;
+    z-index: 999;
+}
+.logo a{
+    font-size: 4vw;
+    margin-left: 3vw;
+    color : #e15c5c;
+}
+
+.navLinks{
+    margin-right: 5px;
+    color: white;
+    font-size: 2vw;
+}
+.navLinks a{
+    padding: 0.5vw;
+    color: white;
+    background-color: #0084ff; 
+    border-radius: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+    font-size: 2.5vw;
+}
+.git{
+    background-color: transparent !important;
+}
+
+/* page 1 */
+
+.page1{
+    height: 100vh;
+    width: 100%;
+    background-color:black;
+    padding-top: 20vh;
+}
+.heading{
+    font-family: "Lilita One", sans-serif;
+    text-align: center;
+    font-weight: 400;
+    font-size: 6vw;
+    color: white
+}
+.lilita-one-regular {
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.pic{
+    height: 70%;
+    width: 100%;
+    background-color: none;
+    display:flex;
+    justify-content : center;
+    align-items: center;
+}
+.pic img{
+    margin-top: 10vw;
+    height : 100%;
+    width : 80%;
+    object-fit: cover;
+}
+
+/* page2 */
+.page2{
+    height: 100vh;
+    width: 100%;
+    padding: 8vw 0;
+    background-color: black;
+    padding-bottom: 60vw;
+}
+.move{
+    display: flex;
+    padding: 3vw 0;
+    overflow: hidden;
+}
+.marque{
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+    padding: 0 1.5vw;
+}
+.marque h3{
+    color: white;
+    font-size: 8vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.content{
+    height:100%;
+    width:80%;
+    display:flex;
+    align-items: center;
+
+}
+.content h3{
+    color:white;
+    text-align: center;
+    font-size: 5vw;
+    margin-left:  15vw;
+    margin-top: 35vw ;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 500
+    ;
+}
+
+.btns{
+    margin-top: 38vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+.btns a{
+    padding: 0.5vw;
+    color: white;
+    background-color: #0084ff;  
+    border-radius: 5px;
+    margin-left: 5px;
+    text-decoration: none;
+    font-size: 2.5vw;
+}
+.repo{
+    background-color: #e15c5c !important;
+}
+
+
+/* page3 */
+
+.page3{
+    height: 100vh;
+    width: 100%;
+    background-color: #263239b7;
+    padding-top: 5vw;
+    padding-bottom: 6vw;
+}
+
+.heading2{
+    margin-top: 10vh;
+    height: 20vh;
+    width: 100%;
+    margin-top: -3vw;
+    margin-left: 3vw;
+}
+.heading2 h3{
+    font-family: "Lilita One", sans-serif;
+    font-size: 7vw;
+    font-weight: 500;
+    color: white;
+}
+.heading2 p{
+    font-family: "Lilita One", sans-serif;
+    font-size: 2vw;
+    font-weight: 300;
+    color: white;
+}
+
+.cc{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.cc img{
+    height: 5vw;
+    width: 10vw;
+    object-fit: cover;
+}
+.projects{
+    height: 10%;
+    width: 100%;
+}
+.projects h3{
+    color: white;
+    padding: 2vw;
+    font-family: "Lilita One", sans-serif;
+    font-size: 4vw;
+    font-weight: 400;
+}
+.projects a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 2vw;
+}
+.about{
+    margin-top: 10vw;
+    height: 50%;
+    width: 100%;
+}
+.about h3{
+    margin-left: 2vw;
+    font-size: 5vw;
+    font-family: "Lilita One", sans-serif;
+    color :white;
+}
+.aboutlinks{
+    margin-top:2vw;
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.aboutlinks a img{
+    height: 10vw;
+    width: 20vw;
+    object-fit: cover;
+    border-radius: 50%;
+}
+/* page4 */
+.page4{
+    height:100vh;
+    width: 100%;
+    background-color:black;
+}
+.page4 h3{
+    color:aliceblue;
+    font-family:"Lilita One", sans-serif;
+    font-weight: 200;
+    font-size: 15vw;
+}
+.page4 h3 a{
+    text-decoration: none;
+}
+.page4 p{
+    color:aqua;
+    text-align: center;
+    font-family :"Lilita One", sans-serif;
+}
+.page4 p i{
+    color:#e15c5c;
+}
+
+
+@media (max-width :600px){
+/* navbar */
+    .top{
+        height: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo a{
+        font-size: 5vh;
+        margin-left: 2vh;
+        color : #e15c5c;
+    }
+    
+    .navLinks a{
+        padding: 0.5vh;
+        color: white;
+        background-color: #0084ff; 
+        border-radius: 5px;
+        margin-right: 5px;
+        text-decoration: none;
+        font-size: 2.5vh;
+    }
+
+    /* page 1 */
+
+.page1{
+    height: 80vh;
+    width: 100%;
+    padding: 3vh 0;
+    background-color: black;
+    padding-top: 20vh;
+}
+.heading{
+    text-align: center;
+    font-size: 4vh;
+    color: white
+}
+.pic{
+    height: 60%;
+    width: 100%;
+    background-color: black;
+    display:flex;
+    justify-content : center;
+    align-items: center;
+}
+.pic img{
+    height : 80%;
+    width : 80%;
+    object-fit: cover;
+}
+
+/*page2 */
+ .page2{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    padding-bottom: 25vh;
+}
+.move{
+    margin-top: -25vh;
+    display: flex;
+    overflow: hidden;
+}
+.marque{
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+    padding: 0 1.5vw;
+    transform: translateX(-100%);
+}
+.marque h3{
+    font-size: 7vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.content{
+    Height:100%;
+    width:80%;
+    display:flex;
+    align-items: center;
+}
+.content h3{
+    margin-top: 30vh;
+    margin-left: 8vh;
+    font-size: 4vh;
+    font-family: "Lilita One", sans-serif;
+}
+
+.btns{
+    margin-top: 30vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.btns a{
+    padding: 0.5vh;
+    color: white;
+    background-color: #0084ff;  
+    border-radius: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+    font-size: 2.5vh;
+}
+.repo{
+    background-color: #e15c5c !important;
+}
+
+
+/* page3 */
+
+
+.page3{
+    height: 100vh;
+    width: 100%;
+    background-color: #263239b7;
+    padding-top: 5vh;
+    margin-bottom: -30vh;
+}
+
+.heading2{
+    margin-top: 10vh;
+    height: 10vh;
+    width: 100%;
+    margin-top: -3vh;
+    margin-left: 2vh;
+}
+.heading2 h3{
+    font-size: 5vh;
+}
+.heading2 p{
+    font-size: 2vh;
+}
+
+.cc{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.cc img{
+    height: 5vh;
+    width: 10vh;
+    object-fit: cover;
+}
+.projects{
+    height: 10%;
+    width: 100%;
+}
+.projects h3{
+    color: white;
+    padding: 2vh;
+    font-family: "Lilita One", sans-serif;
+    font-size: 4vh;
+    font-weight: 400;
+}
+.projects a{
+    color: whitesmoke;
+    text-decoration: none;
+    margin: 2vh 2vh;
+    font-size: 2vh;
+}
+.about{
+    margin-top: 10vh;
+    height: 50%;
+    width: 100%;
+}
+.about h3{
+    margin-left: 1.5vh;
+    font-size: 5vh;
+    font-family: "Lilita One", sans-serif;
+    color : aqua;
+    font-weight: 500;
+}
+.aboutlinks{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.aboutlinks a img{
+    height: 10vh;
+    width: 15vh;
+    object-fit: cover;
+    border-radius: 50%;
+}
+/* page4 */
+.page4{
+    height:65vh;
+    width: 100%;
+    background-color:black;
+}
+.page4 h3{
+    color:aliceblue;
+    font-family:"Lilita One", sans-serif;
+    font-weight: 200;
+    font-size: 12vh;
+    text-align: end;
+    border-right: 2vw solid aqua;
+}
+.page4 h3 a{
+    text-decoration: none;
+}
+.page4 p{
+    color:aqua;
+    text-align: center;
+    font-family :"Lilita One", sans-serif;
+    margin-top: 6vh;
+}
+.page4 p i{
+    color:#e15c5c;
+}
+
+}
+  
