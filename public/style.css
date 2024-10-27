@@ -3,6 +3,8 @@
    padding: 0;
 }
 body{
+    margin: 0;
+    padding: 0;
     color: black;
 }
 
@@ -100,7 +102,7 @@ body{
 }
 .marque h3{
     color: white;
-    font-size: 8vw;
+    font-size: 6vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .content{
@@ -250,7 +252,18 @@ body{
 }
 
 
-@media (max-width :600px){
+@media (max-width :580px){
+
+    *{
+        margin: 0;
+        padding: 0;
+     }
+     html,body{
+        margin: 0;
+        padding: 0;
+        color: black;
+        box-sizing: border-box;
+    }
 /* navbar */
     .top{
         height: 100px;
@@ -270,7 +283,7 @@ body{
         color: white;
         background-color: #0084ff; 
         border-radius: 5px;
-        margin-right: 5px;
+        margin-right: 10px;
         text-decoration: none;
         font-size: 2.5vh;
     }
@@ -324,7 +337,7 @@ body{
     transform: translateX(-100%);
 }
 .marque h3{
-    font-size: 7vh;
+    font-size: 4vh;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .content{
