@@ -2,10 +2,12 @@
    margin: 0;
    padding: 0;
 }
-body{
+
+html,body{
     margin: 0;
     padding: 0;
     color: black;
+    overflow-x: hidden;
 }
 
 /* navbar top */
@@ -252,7 +254,7 @@ body{
 }
 
 
-@media (max-width :580px){
+@media (max-width :589px){
 
     *{
         margin: 0;
