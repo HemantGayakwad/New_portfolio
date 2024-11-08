@@ -1,6 +1,6 @@
 
 gsap.to(".marque",{
-    transform:'translateX(-80%)',
+    transform:'translateX(-120%)',
     duration:2,
     scrollTrigger:{
         trigger:".marque",
