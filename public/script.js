@@ -1,43 +1,4 @@
-// function marqueAnimation(){
-//     window.addEventListener("wheel",function(dets){
-//         if(dets.deltaY>0)
-//         {
-//             gsap.to(".marque",{
-//                 transform:'translateX(-200%)',
-//                 duration:6,
-//                 repeat:-1,
-//                 ease:"none"
-//             })
-//         }else{
-//             gsap.to(".marque",{
-//                 transform:'translateX(0%)',
-//                 duration:4,
-//                 repeat:-1,
-//                 ease:"none"
-//             })
-//         }
-//     })
-// }
 
-// marqueAnimation()
-
-// gsap.from("h1",{
-//     opacity:0,
-//     duration:1,
-//     y:30,
-// })
-// gsap.from("h3",{
-//     opacity:0,
-//     duration:1,
-//     y:30,
-//     stagger:0.2
-// })
-// gsap.from("p",{
-//     opacity:0,
-//     duration:1,
-//     y:30,
-//     stagger:0.2
-// })
 gsap.to(".marque",{
     transform:'translateX(-80%)',
     duration:2,
